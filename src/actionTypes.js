@@ -1,0 +1,3 @@
+export const RECEIVE_PRODUCT = 'RECEIVE_PRODUCT';
+export const ADD_PRODUCT = 'ADD_PRODUCT';
+export const CHECKOUT_CART = 'CHECKOUT_CART';

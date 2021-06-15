@@ -1,16 +1,38 @@
-.App {
-  text-align: center;
+input {
+  margin-right: 1rem;
+  height: 1.5rem;
+  width: 20rem;
+  padding: 5px;
+  border-radius: 2px;
+  border: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  width: 5rem;
+  height: 2.5rem;
+  padding: 5px;
+  background-color: seagreen;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 1rem;
+  margin-left: 1.5rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover {
+  background-color: rgba(46, 139, 86, 0.616);
+}
+button:disabled {
+  background-color: rgba(46, 139, 86, 0.616);
+}
+
+span {
+  margin: 0.5rem;
+}
+
+a {
+  color: white;
 }
 
 .App-header {
